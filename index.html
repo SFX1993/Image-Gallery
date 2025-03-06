@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Interactive image gallery with search and modal view, fetching images from an API."
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Image Gallery</h1>
+      <input type="text" id="search-input" placeholder="Search images..." />
+    </header>
+    <div class="gallery" id="gallery"></div>
+    <div class="modal" id="modal">
+      <span id="close-modal" class="close">&times;</span>
+      <img src="" alt="Large view" id="modal-image" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
